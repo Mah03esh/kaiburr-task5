@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset (too large for GitHub)
+complaints.csv
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs (optional - uncomment if you don't want to push these)
+# eda_class_distribution.png
+# evaluation_confusion_matrix.png
+
+# Logs
+*.log
